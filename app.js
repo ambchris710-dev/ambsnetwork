@@ -1,3 +1,7 @@
+app.get('/', (req, res) => {
+  res.status(200).send('OK');
+});
+
 // Import Express.js
 const express = require('express');
 
